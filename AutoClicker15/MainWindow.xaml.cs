@@ -30,7 +30,6 @@ namespace AutoClicker15
             DispatcherTimer autoPlayTimer = new DispatcherTimer();
             autoPlayTimer.Interval = TimeSpan.FromSeconds(10);
             autoPlayTimer.Tick += AutoPlayTimer_Tick;
-
         }
 
         private void AutoPlayTimer_Tick(object sender, EventArgs e)
